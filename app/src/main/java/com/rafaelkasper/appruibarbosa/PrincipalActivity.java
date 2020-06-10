@@ -34,6 +34,13 @@ public class PrincipalActivity extends AppCompatActivity {
                 webView.loadUrl("https://emefruibarbosa.xyz/atividades");
             }
         });
+
+        webView.setWebViewClient(new WebViewClient() {
+            public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+                webView.loadUrl("file:///android_asset/erro.html");
+
+            }
+        });
     }
 
 
