@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "179782241851",
+    "firebase_url": "https://app-rui-barbosa.firebaseio.com",
+    "project_id": "app-rui-barbosa",
+    "storage_bucket": "app-rui-barbosa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179782241851:android:3e35255d9a8b061b81161e",
+        "android_client_info": {
+          "package_name": "com.rafaelkasper.appruibarbosa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179782241851-aj6d7i3m13e0tdsrd014ridh6qun5cng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rafaelkasper.appruibarbosa",
+            "certificate_hash": "e54df90bbfeb4efb8dc873410fdd466ee939e716"
+          }
+        },
+        {
+          "client_id": "179782241851-pnpaqs88r0lhmae846tad1r6v3sai0qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh1Zuu5aOaat3juDN02XQ0q4SpVSJM1n4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179782241851-pnpaqs88r0lhmae846tad1r6v3sai0qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

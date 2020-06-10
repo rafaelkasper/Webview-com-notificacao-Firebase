@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    apply plugin: 'com.google.gms.google-services'  // Google Play services Gradle plugin
+    defaultConfig {
+        applicationId "com.rafaelkasper.appruibarbosa"
+        minSdkVersion 19
+        targetSdkVersion 24
+        versionCode 2
+        versionName "2.1"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.0.0'
+    // Add the In-App Messaging dependency:
+    implementation 'com.google.firebase:firebase-inappmessaging-display:18.0.0'
+    // Check that Firebase core is up-to-date:
+    implementation 'com.google.firebase:firebase-core:17.0.0'
+    implementation 'com.android.support:appcompat-v7:23.1.1'
+    implementation 'com.android.support:design:23.1.1'
+}
